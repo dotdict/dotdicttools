@@ -7,11 +7,11 @@ classifiers = ["License :: OSI Approved :: MIT License"]
 description = "README.md"
 dynamic = ["version", "readme"]
 license = {file = "LICENSE"}
-name = "dot_dict"
+name = "dotdicttools"
 
 [tool.setuptools.dynamic]
 readme = {file = ["README.md"]}
-version = {attr = "dot_dict.__version__"}
+version = {attr = "dotdicttools.__version__"}
 
 [project.urls]
-Home = "https://github.com/dotdict/dot_dict"
+Home = "https://github.com/dotdict/dotdicttools"

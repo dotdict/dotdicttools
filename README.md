@@ -1,2 +1,2 @@
-# dot_dict
+# dotdicttools
 Add dot notation to Python dicts.
