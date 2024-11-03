@@ -6,6 +6,13 @@ on:
       - "**"
 
 jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ergebnis/.github/actions/github/release/create@1.8.0
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
   pypi:
     name: Publish to PyPI
     runs-on: ubuntu-latest
